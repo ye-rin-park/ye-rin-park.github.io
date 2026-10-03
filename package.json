@@ -1,0 +1,25 @@
+{
+  "name": "ye-rin-park.github.io",
+  "description": "Personal academic portfolio website of Ye Rin Park, Ph.D. Candidate at KAIST.",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.1.6",
+    "@astrojs/tailwind": "^5.0.3",
+    "astro": "^4.0.2",
+    "daisyui": "^4.4.10",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}

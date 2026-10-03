@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="CV" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Ph.D. Candidate, Department of Chemical & Biomolecular Engineering"
+      subtitle="Sep 2025 – Present at KAIST · Advisor: Prof. Hyun Uk Kim"
+    />
+    <TimeLineElement
+      title="M.S. in Food Science & Biotechnology"
+      subtitle="2020 – 2022 at Seoul National University"
+    />
+    <TimeLineElement
+      title="B.S. in Food Science & Biotechnology (Minor: Aesthetics)"
+      subtitle="2015 – 2020 at Seoul National University"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Ph.D. Research"
+      subtitle="Sep 2025 – Present at KAIST"
+    >
+      AI-driven systems biology, precision oncology, cancer therapeutic target discovery, drug
+      resistance modeling, and interpretable and causal machine learning.
+    </TimeLineElement>
+    <TimeLineElement
+      title="OMICS Researcher"
+      subtitle="May 2022 – Aug 2025"
+    >
+      Multi-omics mechanism-of-action studies, omics database development, and
+      microbiome–metabolome prediction.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Publications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-3">
+    <li>
+      Yoon, S. H., Park, Y. R., &amp; Kim, H. U. (2026). A Bayesian network-based framework for
+      causal cancer drug target discovery integrating patient and cell line data. Preprint. DOI:
+      <a class="link" href="https://doi.org/10.64898/2026.07.13.736676" target="_blank" rel="noopener noreferrer">10.64898/2026.07.13.736676</a>
+    </li>
+    <li>
+      Park, Y. R., et al. (2023). Systemic multiomics evaluation of the therapeutic effect of
+      Bacteroides species on liver cirrhosis in male mice. Microbiology Spectrum, 11(6), e05349.
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Awards</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>Merit Award, Korean Cancer Association (2024)</li>
+    <li>Academic Excellence Scholarship, Seoul National University (Spring 2016)</li>
+    <li>Academic Excellence Scholarship, Seoul National University (Spring 2018)</li>
+  </ul>
+</BaseLayout>

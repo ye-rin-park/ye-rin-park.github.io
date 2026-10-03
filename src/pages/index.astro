@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-2 mt-5">
+    <div class="text-4xl font-bold">Ye Rin Park</div>
+    <div class="text-xl py-2 opacity-80">Ph.D. Candidate</div>
+    <div class="opacity-80">
+      Department of Chemical &amp; Biomolecular Engineering, KAIST<br />
+      Systems Biology and Medicine Lab &mdash; Advisor: Prof. Hyun Uk Kim
+    </div>
+  </div>
+
+  <div class="mt-10 mb-5">
+    <div class="text-3xl w-full font-bold mb-3">About Me</div>
+    <div class="text-justify">
+      <p class="mb-4">
+        My research focuses on AI-driven systems biology and precision oncology, particularly cancer
+        drug resistance, therapeutic target discovery, and interpretable and causal machine learning.
+        My background spans multi-omics, metabolomics, and mechanism-of-action studies, including
+        three years of industry experience as an OMICS Researcher.
+      </p>
+      <p>
+        In my Ph.D. research, I develop computational frameworks that integrate patient, cell line,
+        and transcriptomic data to identify actionable cancer targets and characterize drug resistance
+        mechanisms. I am particularly interested in connecting biomedical data, mechanistic
+        understanding, and therapeutic decision making.
+      </p>
+    </div>
+  </div>
+
+  <div class="mb-10">
+    <div class="text-3xl w-full font-bold mb-3">Research Interests</div>
+    <div class="flex flex-wrap gap-2">
+      <span class="badge badge-outline p-3">AI-driven Systems Biology</span>
+      <span class="badge badge-outline p-3">Precision Oncology</span>
+      <span class="badge badge-outline p-3">Cancer Drug Resistance &amp; Re-sensitization</span>
+      <span class="badge badge-outline p-3">Therapeutic Target Discovery</span>
+      <span class="badge badge-outline p-3">Interpretable &amp; Causal Machine Learning</span>
+      <span class="badge badge-outline p-3">AI-guided Drug Discovery</span>
+      <span class="badge badge-outline p-3">Translational Bioinformatics</span>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Selected Publications</div>
+
+    <div class="mb-6">
+      <p>
+        Yoon, S. H., Park, Y. R., &amp; Kim, H. U. (2026).
+        <span class="font-semibold">A Bayesian network-based framework for causal cancer drug target discovery integrating patient and cell line data.</span>
+        Preprint. DOI:
+        <a class="link" href="https://doi.org/10.64898/2026.07.13.736676" target="_blank" rel="noopener noreferrer">10.64898/2026.07.13.736676</a>
+      </p>
+    </div>
+    <div class="divider my-0"></div>
+
+    <div class="my-6">
+      <p>
+        Park, Y. R., et al. (2023).
+        <span class="font-semibold">Systemic multiomics evaluation of the therapeutic effect of Bacteroides species on liver cirrhosis in male mice.</span>
+        Microbiology Spectrum, 11(6), e05349.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
