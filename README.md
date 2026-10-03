@@ -24,8 +24,6 @@ which builds the site with Astro and publishes it to GitHub Pages.
 
 ## Content to update
 
-- `public/profile.webp` — replace with an actual profile photo (keep the filename, or update the
-  reference in `src/components/SideBar.astro`).
 - No CV PDF is currently included. To add one, place it at `public/CV_YeRinPark.pdf` and link it
   from `src/pages/cv.astro`.
 - Email, LinkedIn, and Google Scholar links were omitted because they were not available in the
